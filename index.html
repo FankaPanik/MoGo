@@ -15,11 +15,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!--  Отображать страницу в масштабе 100%  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon-16x16.png">
 
 </head>
 <body>
+<div id="toTop"><i class="fas fa-chevron-up"></i></div>
 <!--    .........................................menu....................................-->
     <header class="menu_bar">
         <div class="container">
@@ -30,11 +31,11 @@
                 <div class="col-xl-8 col-md-6 ml-auto align-self-center">
                     <nav>
                         <ul class="menu d-flex justify-content-end">
-                            <li class="menu__item"><a href="/">About</a></li>
-                            <li class="menu__item"><a href="/">service</a></li>
-                            <li class="menu__item"><a href="/">work</a></li>
-                            <li class="menu__item"><a href="/">blog</a></li>
-                            <li class="menu__item"><a href="/">contact</a></li>
+                            <li class="menu__item"><a href="#about">About</a></li>
+                            <li class="menu__item"><a href="#service">service</a></li>
+                            <li class="menu__item"><a href="#work">work</a></li>
+                            <li class="menu__item"><a href="#blog">blog</a></li>
+                            <li class="menu__item"><a href="#contact">contact</a></li>
                             <li class="menu__icon"><a href="/"><i class="fas fa-shopping-cart"></i></a></li>
                             <li class="menu__icon"><a href="/"><i class="fas fa-search"></i></a></li>
                         </ul>
@@ -61,7 +62,7 @@
         </div>
       </div>
     </header>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10 col-md-10">
@@ -133,7 +134,7 @@
                    </div>
                    </div>
     </section>
-    <section class="services">
+    <section class="services" id="service">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -400,7 +401,7 @@
             </div>
         </div>
     </section>
-    <section class="work">
+    <section class="work"  id="work">
        <div class="container">
            <div class="row justify-content-center">
                <div class="col-xl-10">
@@ -510,7 +511,7 @@
        </div>
         
     </section>
-    <section class="comment">
+    <section class="comment"  id="blog">
         <div class="container">
             <div class="row justify-content-center">
                <div class="col-xl-2 col-sm-2">
@@ -677,7 +678,7 @@
             </div>
         </div>
     </section>
-    <section class="map">
+    <section class="map"  id="contact">
         <div class="container">
             <div class="row justify-content-center">
                <div class="col-xl-12">
@@ -732,5 +733,7 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
       </script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/main.js"></script>
 </body>
 </html>

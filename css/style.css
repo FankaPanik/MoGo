@@ -14,7 +14,23 @@ li {
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
+#toTop{
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #95e1d3;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+}
 header {
     background-image: url(../img/header.png);
     background-repeat: no-repeat;
