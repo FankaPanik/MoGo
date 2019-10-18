@@ -14,6 +14,9 @@ li {
 body {
     font-family: 'Montserrat', sans-serif;
 }
+.menu-icon{
+    display: none;
+}
 #toTop{
     z-index: 999;
     width: 40px;
