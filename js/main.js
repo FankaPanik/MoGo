@@ -6,10 +6,10 @@ $(document).ready(function () {
          scrollTop: $(target).offset().top
       }, 500);
       $('ul.menu a[href^="#"').css({
-         'color': '#212121'
+         'color': '#fff'
       });
       $(this).css({
-         'color': '#004bee'
+         'color': '#fce38a'
       });
       return false;
    });
