@@ -1,0 +1,383 @@
+/*
+@media (max-width: 1300px) {
+    .logo{
+    text-align: center;
+}
+    .menu {
+    padding-top: 20px;
+}
+}
+*/
+
+@media (max-width: 1200px) {
+    .logo{
+      width: 300px; 
+    }
+    .header h2{
+        font-size: 100px;
+        text-align: center;
+    }
+    .header__button{
+        margin-top: 50px;
+    }
+    .title_p {
+        max-width: 800px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .about__img{
+        margin-bottom: 20px;
+    }
+    .overlay{
+        position: absolute;
+        left: 13.5%;
+        width: 350px;
+        height: 231px;
+    }
+    .statis__text{
+        width: 150px;
+    }
+    .services__text {
+    width: 220px;
+/*
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 30px;
+*/
+}
+    .icon {
+    font-size: 25px;
+    vertical-align: 65px;
+    margin-right: 15px;
+}
+    .service img{
+        margin-bottom: 20px;
+    }
+    .comment {
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+    .team_positon{
+        margin-bottom: 20px;
+    }
+    .team .overlay {
+        position: absolute;
+        left: 6%;
+}
+    .team{
+        padding-bottom: 80px;
+    }
+    .label img{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .work{
+            margin-right: 0;
+    margin-left: 0;
+    }
+    .work .overlay {
+        position: absolute;
+        left: 3%;
+    overflow: hidden;
+}
+    .comment img{
+        width: 150px;
+    }
+    .client-item .text_p {
+    width: 250px;
+}
+    .client-item .services__text{
+        padding-top: 30px;
+    }
+    .client-item .team_positon::after {
+    top: 34%;
+}
+    .blog .team_name{
+    padding-left: 20px;
+        width: 300px;
+}
+    .blog .text_p {
+    padding-left: 20px;
+        width: 300px;
+}
+    .blog_item{
+    width: 300px;
+}
+    .blog_item img {
+    width: 300px;
+}
+    .date {
+    top: 40%;
+    left: 40px;
+}
+    .footer p{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+        .logo{
+    text-align: center;
+}
+    .menu {
+    padding-top: 20px;
+}
+}
+@media  screen and (max-width: 992px){
+    .menu{
+        display: block;
+    }
+    .container_cols{
+        max-width: 700px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+ }
+    .dws-menu label.toggleMenu{
+         background: #ececed;
+         display: none;
+         padding: 15px 40px;
+         text-transform: uppercase;
+         font-size: 14px;
+         cursor: pointer;
+         position: relative;
+}    
+    .dws-menu{
+      overflow: hidden;
+ }  
+    .dws-menu ul{
+          display: block;
+          max-height: 0;
+          transition: max-height 0.3s;
+} 
+    .dws-menu label.toggleMenu{
+         display: block;
+}
+    input.toggleMenu:checked + label.toggleMenu{
+         background: #000;
+         color: #fff;
+} 
+    input.toggleMenu:checked ~ ul{
+         display: block;
+} 
+    .dws-menu label.toggleSubmenu{
+         position: absolute;
+         top: 0;
+         right: 0;
+         width: 100%;
+         height: 100%;
+         cursor: pointer;
+         display: block;
+} 
+    input.toggleSubmenu:checked ~ a{
+         background: #454547;
+         color: #fff;
+}   
+    input.toggleMenu:checked ~ ul,
+    input.toggleSubmenu:checked ~ ul{
+         display: block;
+         position: relative; 
+         max-height: 5000px;
+         transition: max-height 2s ease-in;
+}
+    .dws-menu label.toggleSubmenu .fa::before{
+         content: "\f0d7";
+         color: #454547;
+} 
+    .dws-menu label.toggleSubmenu .fa{
+         position: absolute;
+         top: 15px;
+         right: 30px;
+} 
+    .dws-menu input.toggleSubmenu:checked ~ label.toggleSubmenu .fa::before{
+         content: "\f0d8";
+         color: #ffffff;
+} 
+
+    .container_header{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .col-3{
+        padding-bottom: 30px;
+    }
+
+@media  screen and (max-width: 768px) {
+    .container_header{
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .section{
+        background-size: cover;
+    }
+    .section_img{
+        background-size: cover;
+        height: 300px;
+    }
+    .section__container{
+        padding-top: 50px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .title p{
+        font-size: 18px;
+    }
+    .section__container_button{
+        font-size: 15px;
+        line-height: 50px;
+        border-radius: 10px;
+        width: 200px;
+    }
+    .body{
+        padding: 10px;
+    }
+    .body__title_icon{
+        color:  #99c50a;
+        font-size: 3em;
+        line-height: 1em;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .body__title_text{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .body__title_text p{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 50px;
+        padding: 0 50px;
+    }
+    .holder{
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .holder__features{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-size: auto;
+    }
+    .communication_header .section__container_title{
+       font-size: 32px; 
+    }
+    .comments{
+        max-width: 750px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .communication{
+        margin-top: -150px;
+    }
+    .comment{
+        width: 350px;
+        background-size: 340px 166px;
+        text-align: center;
+        margin-right: 5%;
+    }
+}
+    
+@media  screen and (max-width: 620px) {
+    .section_img{
+        height: 100%;
+    }
+    .section__container{
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .body__title_text{
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+      .container_cols{
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+ }
+      .col-3{
+        margin: 0 auto;
+    }
+      .row{
+        padding: 0 20px;
+        }
+
+      .comments{
+        display: flex;
+        flex-direction: column;
+        max-width: 380px;
+        margin: 0 auto;   
+        }
+        .comment{
+        width: 360px;
+        background-size: 340px 166px;
+        padding-bottom: 30px;
+        }
+    }
+    
+@media  screen and (max-width: 480px)    {
+        .title{
+            font-size: 20px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            line-height: 50px;
+        }
+        .communication_header .title{
+            font-size: 20px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            line-height: 50px;
+    }
+        .button{
+            font-size: 16px;
+            line-height: 20px;
+            width: 220px;
+            padding: 15px 20px;
+        }
+        .col-button{
+            font-size: 14px;
+            padding: 8px 10px;
+        }
+        .box_count{
+            padding-left: 20px;
+        }
+    }
+        .body__title_text p{
+            padding: 0 10px;
+    }
+    
+@media  screen and (max-width: 320px){
+        .comment{
+            width: 300px;
+            background-size: 290px 166px;
+            padding-bottom: 30px;
+        }
+        .holder__features{
+            width:100%;
+            height: 420px;
+        }
+        .holder__info{
+            height: 100%;
+            margin: 0 auto;
+            padding: 0 5px;
+        }
+        .button_1{
+           font-size: 12px;
+           padding: 15px 20px;
+        }
+        .button_2{
+            font-size: 12px;
+            padding: 15px 20px;
+        }
+    }
+    
+    
+    
+    
