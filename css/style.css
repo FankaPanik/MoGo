@@ -293,7 +293,7 @@ button {
 .design {
     text-align: center;
     padding-top: 91px;
-    height: 850px;
+/*    height: 850px;*/
     background-image: url(../img/fon.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,12 +461,12 @@ button {
 }
 
 .client {
+    background-color: #f8f8f8;
     padding-top: 91px;
     text-align: center;
     background-image: url(../img/fon.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 830px;
 }
 
 .client .title_h4 {

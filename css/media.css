@@ -2,18 +2,22 @@
     .logo {
         width: 300px;
     }
+
     .header h2 {
         font-size: 100px;
         text-align: center;
     }
+
     .header__button {
         margin-top: 50px;
     }
+
     .title_p {
         max-width: 800px;
         margin: 0 auto;
         padding-bottom: 30px;
     }
+
     .about__img {
         margin-bottom: 20px;
     }
@@ -98,16 +102,20 @@
     .blog .team_name {
         width: 300px;
     }
-    .blog_item{
+
+    .blog_item {
         margin-right: 20px;
     }
+
     .blog .services__text {
         width: 300px;
         padding: 20px 0;
     }
-    .blog .text_p{
+
+    .blog .text_p {
         width: 300px;
     }
+
     .blog_item {
         width: 300px;
     }
@@ -127,25 +135,30 @@
 }
 
 @media screen and (max-width: 992px) {
+
     .menu__item a,
-    .menu__icon a{
+    .menu__icon a {
         margin-right: 30px;
-}
+    }
+
     .header__button {
-    margin-top: 80px;
-    position: absolute;
-    left: 39%;
-}
+        margin-top: 80px;
+        position: absolute;
+        left: 39%;
+    }
+
     .title_p {
         max-width: 600px;
     }
+
     .statis__text {
         width: 120px;
     }
+
     .statis__text h1 {
-    font-size: 60px;
-}
-    
+        font-size: 60px;
+    }
+
     .icon {
         font-size: 25px;
         margin-right: 15px;
@@ -154,19 +167,57 @@
     .service img {
         margin-bottom: 20px;
     }
+
     .comment p {
-    font-size: 18px;
-    padding-left: 10px;
+        font-size: 18px;
+        padding-left: 10px;
     }
+
     .comment .title_h3 {
-    margin-left: 90px;
-}
-    .comment .title_h3::after {
-      left: 10%;
+        margin-left: 90px;
     }
+
+    .comment .title_h3::after {
+        left: 10%;
+    }
+
     .client-item .text_p {
         width: 200px;
     }
+
+    .client-item img {
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+
+    .footer_inst {
+        margin-top: 30px;
+    }
+
+    .work img {
+        width: 330px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .work .overlay {
+        width: 330px;
+        height: 268px;
+        position: absolute;
+        left: 4%;
+    }
+
+    .overlay {
+        left: 4%;
+    }
+
+    .team .overlay {
+        left: 4%;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -192,114 +243,305 @@
         height: 50px;
         cursor: pointer;
     }
-}
 
-@media screen and (max-width: 620px) {
-    .section_img {
-        height: 100%;
+    .header h1 {
+        font-size: 50px;
+        text-align: center;
     }
 
-    .section__container {
-        padding-top: 40px;
-        padding-bottom: 100px;
+    .header h2 {
+        font-size: 80px;
+        text-align: center;
     }
 
-    .body__title_text {
-        font-size: 25px;
-        line-height: 40px;
+    .header__button {
+        margin-top: 80px;
+        position: absolute;
+        left: 35%;
+    }
+
+    .title_p {
+        max-width: 500px;
+    }
+
+    .about__img {
         margin-bottom: 30px;
     }
 
-    .container_cols {
-        max-width: 400px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
+    .overlay {
+        left: 17.5%;
     }
 
-    .col-3 {
-        margin: 0 auto;
+    .statis__text {
+        width: 90px;
     }
 
-    .row {
-        padding: 0 20px;
+    .statis__text h1 {
+        font-size: 45px;
     }
 
-    .comments {
-        display: flex;
-        flex-direction: column;
-        max-width: 380px;
-        margin: 0 auto;
+    .services__text {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .services-item .icon {
+        font-size: 25px;
+        vertical-align: 0;
+        padding-top: 30px;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+    }
+
+    .design__img-2 {
+        left: 58%;
+    }
+
+    .service_info {
+        width: 400px;
     }
 
     .comment {
-        width: 360px;
-        background-size: 340px 166px;
-        padding-bottom: 30px;
+        text-align: center;
     }
-}
 
-@media screen and (max-width: 480px) {
-    .title {
-        font-size: 20px;
+    .icon_com {
+        font-size: 50px;
+    }
+
+    .comment .title_h3::after {
+        left: 35%;
+    }
+
+    .team .overlay {
+        left: 17.5%;
+    }
+
+    .team {
+        padding-bottom: 80px;
+    }
+
+    .label img {
+        max-width: 500px;
         margin: 0 auto;
-        margin-bottom: 20px;
-        line-height: 50px;
     }
 
-    .communication_header .title {
-        font-size: 20px;
+    .work img {
+        max-width: 600px;
         margin: 0 auto;
-        margin-bottom: 20px;
-        line-height: 50px;
     }
 
-    .button {
-        font-size: 16px;
-        line-height: 20px;
-        width: 220px;
-        padding: 15px 20px;
+    .work .overlay {
+        left: 19.5%;
     }
 
-    .col-button {
-        font-size: 14px;
-        padding: 8px 10px;
+    .comment img {
+        width: 100px;
+        padding-top: 30px;
     }
 
-    .box_count {
-        padding-left: 20px;
+    .client {
+        padding-top: 50px;
     }
-}
 
-.body__title_text p {
-    padding: 0 10px;
-}
+    .client .title_h4 {
+        margin-bottom: 60px;
+    }
 
-@media screen and (max-width: 320px) {
-    .comment {
+    .client-item {
+        flex-direction: column;
+
+    }
+
+    .client-item .text_p {
+        margin: 0 auto;
+    }
+
+    .client-item img {
+        margin: 20px 55px;
+    }
+
+    .client-item .services__text {
+        padding-top: 0;
+    }
+
+    .client-item .team_positon {
+        margin-bottom: 10px;
+    }
+
+    .client-item .team_positon::after {
+        display: none;
+    }
+
+    .blog .services__text {
+        width: 260px;
+        padding: 20px;
+    }
+
+    .blog .team_name {
+        width: 250px;
+    }
+
+    .blog .text_p {
+        width: 250px;
+    }
+
+    .blog_item {
         width: 300px;
-        background-size: 290px 166px;
+        margin-top: 50px;
+    }
+
+    .blog_item img {
+        width: 260px;
+    }
+
+    .date {
+        top: 38%;
+        left: 30px;
+    }
+
+    .map h2::after {
+        left: 44%;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    header{
+        height: 700px;
+    }
+    .header h1 {
+        padding-top: 100px;
+        font-size: 30px;
+    }
+
+    .header h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .header__button {
+        margin-top: 50px;
+        position: absolute;
+        left: 29%;
+    }
+
+    .title_p {
+        max-width: 300px;
+    }
+
+    .about__img img{
+        width: 300px;
+    }
+
+    .overlay {
+        width: 300px;
+        height: 198px;
+        left: 8.5%;
+    }
+
+    .statis__text {
+        width: 60px;
+    }
+
+    .statis__text h1 {
+        font-size: 30px;
+    }
+      .statis__text p {
+        font-size: 10px;
+    }
+    .services__text {
+       
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .services-item .icon {
+        top:0;
+    }
+    .title_h4 {
+    margin-bottom: 50px;
+}
+    .design__img-1 {
+    width: 280px;
+}
+
+.design__img-2 {
+    width: 180px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+    .service__text{
+         width: 200px;
+    }
+    .service img{
+        width: 300px;
+    }
+    .service_info {
+        width: 300px;
+    }
+
+
+    .team .overlay {
+        left: 8%;
+        height: 373px;
+    }
+
+    .team {
         padding-bottom: 30px;
     }
 
-    .holder__features {
-        width: 100%;
-        height: 420px;
-    }
-
-    .holder__info {
-        height: 100%;
+    .label img {
+        max-width: 300px;
         margin: 0 auto;
-        padding: 0 5px;
     }
 
-    .button_1 {
-        font-size: 12px;
-        padding: 15px 20px;
+    .work img {
+        max-width: 600px;
+        margin: 0 auto;
     }
 
-    .button_2 {
-        font-size: 12px;
-        padding: 15px 20px;
+    .work .overlay {
+        left: 4%;
+    }
+
+    .comment img {
+        display: none;
+    }
+
+    .client {
+        padding-top: 50px;
+    }
+
+    .client .title_h4 {
+        margin-bottom: 60px;
+    }
+
+    .client-item {
+        flex-direction: column;
+        margin-left: 50px;
+
+    }
+
+    .client-item .text_p {
+        margin: 0 auto;
+    }
+
+    .client-item img {
+        margin: 20px 55px;
+    }
+
+    .client-item .services__text {
+        padding-top: 0;
+        text-align: center;
+    }
+   
+    .footer p{
+        max-width: 300px;
+    }
+    .footer_blog{
+        margin-top: 20px;
     }
 }
