@@ -22,13 +22,6 @@
         margin-bottom: 20px;
     }
 
-    .overlay {
-        position: absolute;
-        left: 13.5%;
-        width: 350px;
-        height: 231px;
-    }
-
     .statis__text {
         width: 150px;
     }
@@ -57,11 +50,6 @@
         margin-bottom: 20px;
     }
 
-    .team .overlay {
-        position: absolute;
-        left:  13%;
-    }
-
     .team {
         padding-bottom: 80px;
     }
@@ -74,12 +62,6 @@
     .work {
         margin-right: 0;
         margin-left: 0;
-    }
-
-    .work .overlay {
-        position: absolute;
-        left: 3.5%;
-        overflow: hidden;
     }
 
     .comment img {
@@ -99,6 +81,7 @@
         top: 34%;
     }
 
+/*
     .blog .team_name {
         width: 300px;
     }
@@ -123,10 +106,14 @@
     .blog_item img {
         width: 300px;
     }
-
+*/
+.blog{
+       max-width: 800px;
+        margin: 0 auto;
+    }
     .date {
         top: 44%;
-        left: 5px;
+        left: 15px;
     }
 
     .footer p {
@@ -203,22 +190,6 @@
         margin-left: 0;
     }
 
-    .work .overlay {
-        width: 330px;
-        height: 268px;
-        position: absolute;
-        left: 4%;
-    }
-
-    .overlay {
-        left: 4%;
-    }
-
-    .team .overlay {
-        left: 4%;
-    }
-
-
 }
 
 @media screen and (max-width: 767px) {
@@ -269,10 +240,6 @@
         margin-bottom: 30px;
     }
 
-    .overlay {
-        left: 17.5%;
-    }
-
     .statis__text {
         width: 90px;
     }
@@ -315,10 +282,6 @@
         left: 35%;
     }
 
-    .team .overlay {
-        left: 17.5%;
-    }
-
     .team {
         padding-bottom: 80px;
     }
@@ -331,9 +294,6 @@
      .work__img{
         margin: 0;
         padding: 0;
-    }
-    .work .overlay {
-        left: 19%;
     }
 
     .comment img {
@@ -373,32 +333,20 @@
     .client-item .team_positon::after {
         display: none;
     }
-
-    .blog .services__text {
-        width: 260px;
-        padding: 20px;
+    .blog{
+        max-width: 700px;
+        margin: 0 auto;
     }
-
-    .blog .team_name {
-        width: 250px;
+    .blog_item .text_p{
+      width: 350px; 
+        text-align: left;
     }
-
-    .blog .text_p {
-        width: 250px;
+    .blog_item .team_name{
+       text-align: left; 
     }
-
-    .blog_item {
-        width: 300px;
-        margin-top: 50px;
-    }
-
-    .blog_item img {
-        width: 260px;
-    }
-
     .date {
-        top: 38%;
-        left: 30px;
+        top: 40%;
+        left: 8px;
     }
 
     .map h2::after {
@@ -406,14 +354,6 @@
     }
 }
 
-@media screen and (max-width: 670px){
-    .work__img{
-        margin-left: 20%;
-    }
-    .work .overlay {
-        left: 21.5%;
-    }
-}
 @media screen and (max-width: 420px) {
     header{
         height: 700px;
@@ -440,12 +380,6 @@
 
     .about__img img{
         width: 300px;
-    }
-
-    .overlay {
-        width: 300px;
-        height: 198px;
-        left: 8.5%;
     }
 
     .statis__text {
@@ -490,12 +424,6 @@
         width: 300px;
     }
 
-
-    .team .overlay {
-        left: 8%;
-        height: 373px;
-    }
-
     .team {
         padding-bottom: 30px;
     }
@@ -504,18 +432,22 @@
         max-width: 300px;
         margin: 0 auto;
     }
-
-/*
-    .work__img {
-        max-width: 300px;
-        margin: 0 auto;
+     .blog .servises__text{
+        padding-left: 10px;
     }
-*/
-
-    .work .overlay {
-        left: 4%;
+    .blog_item{
+        width: 300px;
     }
-
+    .blog_item img{
+        width: 300px;
+    }
+    .blog_item .text_p{
+      width: 300px;  
+    }
+    .date {
+        top: 40%;
+        left: 10px;
+    }
     .comment img {
         display: none;
     }
@@ -529,9 +461,8 @@
     }
 
     .client-item {
-        flex-direction: column;
-        margin-left: 50px;
-
+        max-width: 220px;
+        margin: 0 auto;
     }
 
     .client-item .text_p {
@@ -553,15 +484,21 @@
     .footer_blog{
         margin-top: 20px;
     }
+    .map h2::after {
+        left: 42%;
+    }
 }
 @media screen and (max-width: 360px){
+    .design__img-2 {
+        left: 40%;
+    }
     .title_h4{
         font-size: 26px;
     }
     .work__img{
         margin-left: 0;
     }
-    .work .overlay {
-        left: 4%;
+    .map h2::after {
+        left: 42%;
     }
 }
