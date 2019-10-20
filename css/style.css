@@ -438,12 +438,12 @@ button {
     margin: 0;
 }
 
-.work .overlay {
-    background-image: url(../img/workfon.png);
-    width: 370px;
-    height: 301px;
-    overflow: hidden;
-}
+    .work .overlay {
+        background-image: url(../img/workfon.png);
+        width: 370px;
+        height: 301px;
+        overflow: hidden;
+    }
 
 .work__img:hover .overlay {
     opacity: 0.8;

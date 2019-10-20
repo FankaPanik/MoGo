@@ -59,7 +59,7 @@
 
     .team .overlay {
         position: absolute;
-        left: 6%;
+        left:  13%;
     }
 
     .team {
@@ -78,7 +78,7 @@
 
     .work .overlay {
         position: absolute;
-        left: 3%;
+        left: 3.5%;
         overflow: hidden;
     }
 
@@ -132,6 +132,10 @@
     .footer p {
         max-width: 400px;
     }
+    .footer_inst {
+        margin-top: 30px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -192,10 +196,7 @@
         margin-right: 15px;
     }
 
-    .footer_inst {
-        margin-top: 30px;
-    }
-
+    
     .work img {
         width: 330px;
         margin-right: 0;
