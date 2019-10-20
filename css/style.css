@@ -179,36 +179,25 @@ button {
     width: 350px;
     transition: 0.3s;
 }
-
-.overlay {
+.about__img:hover img{
+   filter: blur(7px);
+   transition: 0.3s;
+}
+.text{
+    display: none;
+}
+.about__img:hover .text{
+    display: block;
+    width: 100%;
+    color: #FFF;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 350px;
-    opacity: 0;
-    transition: .3s ease;
-    background-image: url(../img/about.png);
-}
-
-.about__img:hover .overlay {
-    opacity: 0.8;
-    -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
-    -moz-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
-    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
-}
-
-.text {
-    transition: 0.3s;
-    color: #ffffff;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    text-align: center;
     font-size: 18px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
 }
 
 /*.................................statistic.........................*/
@@ -387,12 +376,6 @@ button {
     text-align: center;
     padding-bottom: 150px;
 }
-
-.team .overlay {
-    background-image: url(../img/teamfon.png);
-    height: 432px;
-}
-
 .team i {
     color: #fce38a;
     font-size: 40px;
@@ -432,25 +415,8 @@ button {
 }
 
 .work img {
-    width: 370px;
-    display: block;
     padding-bottom: 15px;
     margin: 0;
-}
-
-.work .overlay {
-    background-image: url(../img/workfon.png);
-    width: 370px;
-    height: 301px;
-    overflow: hidden;
-}
-
-.work__img:hover .overlay {
-    opacity: 0.8;
-}
-
-.work__img span {
-    text-transform: uppercase;
 }
 
 .comment img {
